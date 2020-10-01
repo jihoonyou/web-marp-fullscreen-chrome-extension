@@ -1,0 +1,13 @@
+{
+    "name": "WebMarpFullscreen",
+    "version": "1.0",
+    "description": "Enable web marp fullscreen mode",
+    "permissions": [
+        "activeTab"
+        ],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    },
+    "manifest_version": 2
+}
