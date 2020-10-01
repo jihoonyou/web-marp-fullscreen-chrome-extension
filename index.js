@@ -5,5 +5,5 @@ function goFullscreen() {
     
 } 
 
-document.querySelector('#yo').addEventListener('click', goFullscreen)
+document.querySelector('#start-presentation-button').addEventListener('click', goFullscreen);
 

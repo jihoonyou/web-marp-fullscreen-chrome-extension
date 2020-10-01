@@ -5,13 +5,12 @@
     };
 
     let currSlide = null;
+
     const slideContainer = document.querySelector('div[id^=marp-core]');
-
-
 
     const startPresentation = () => {
         if(!slideContainer) {
-            return alert('웹 마프 페이지가 아닙니다!!!')
+            return alert('웹 마프 페이지가 아닙니다!!!');
         }
         currSlide = slideContainer.firstChild;
         activateFullscreen();
@@ -42,7 +41,9 @@
             prevSlide();
         }
     };
+
     document.addEventListener('keyup', fullScreenHandler);
+    
     const nextSlide = () => {
         if (currSlide.nextSibling) {
             currSlide = currSlide.nextSibling;
