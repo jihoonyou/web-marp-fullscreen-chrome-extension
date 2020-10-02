@@ -1,4 +1,4 @@
-# web-marp-fullscreen-extension
+# web-marp-fullscreen-chrome-extension
 현재, [웹 마프](https://web.marp.app/)는 풀 스크린 모드, 즉 발표모드를 지원하지 않습니다.
 web-amp-fullscreen-extension을 통해 발표모드를 실행할 수 있습니다.
 
